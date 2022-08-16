@@ -72,10 +72,13 @@ void print_board() {
 void print_status() {
   if (status == 1) {
     printf("\n\n Winner is Player 1 (X)!\n\n");
+    run = 0;
   } else if (status == 2) {
     printf("\n\n Winner is Player 2 (X)!\n\n");
+    run = 0;
   } else if (status == 3) {
     printf("\n\n No winner this time!\n\n");
+    run = 0;
   }
 }
 
